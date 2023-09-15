@@ -1,0 +1,92 @@
+@media screen and (max-width:700px) {
+
+    body {
+        background-color: #0c041d;
+    }
+
+    .text-container {
+        width: 85vw;
+        height: 35vh;
+        background-color: none;
+    }
+    
+    .text-container>.text-1>.sp-an {
+        font-size: 2rem;
+    }
+
+    .text-container>.text-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .text-container>.text-2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .text-container>.text-3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .text-container>.text-4 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .main-container>img {
+        height: 40vh;
+    }
+    .main-container {
+        flex-direction: column-reverse;
+    }
+
+    .project-container-2 {
+        height: 50vh;
+    }
+
+    .project-container-2>img {
+        height: 30vh;
+        border-radius: 5px;
+    }
+
+
+}
+
+@media screen and (max-width:550px) {
+    
+    header>.nav-container {
+        flex-wrap: wrap;
+        height: 4rem;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    header>.nav-container>.lo-go {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(0, 238, 255);
+    }
+
+    header>.nav-container>.page-link {
+        display: none;
+    }
+
+    header>.nav-container>.bars>li {
+        font-size: 1.2rem;
+    }
+
+    main {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    header>nav>.page-link {
+        display: flex;
+    }
+
+    header>nav>.bars {
+        display: none;
+    }
+} 
