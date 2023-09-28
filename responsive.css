@@ -69,6 +69,22 @@
     }
 
     header>.nav-container>.page-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        padding: 40px 20px;
+        position: absolute;
+        right: 0;
+        top: 4.5rem;
+        background: rgb(1, 40, 106);
+        border-radius: 5px;
+        transition: .5s;
+        right: -170px;
+    }
+
+    .nav-container>.bars>#bars-icon2 {
         display: none;
     }
 
