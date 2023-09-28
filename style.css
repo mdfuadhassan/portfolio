@@ -51,7 +51,7 @@ header>.nav-container {
     transition: 0.1s ease-in-out;
 }
 
-.nav-container>ul>li:hover {
+.nav-container>.page-link>li:hover {
     border-bottom: 3.5px solid rgb(244, 240, 240);
     transition: 0.1s ease-in-out;
 }
