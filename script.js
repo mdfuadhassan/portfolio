@@ -1,6 +1,6 @@
 //  Setup and start animation!
 var typed = new Typed('#element', {
-    strings: ['Font-end Developer', 'Web Developer', 'Web Designer', 'Python Developer', 'Javascript Developer'],
+    strings: ['Font-end Developer'],
     typeSpeed: 50,
 });
 
